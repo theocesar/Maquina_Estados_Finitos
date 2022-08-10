@@ -1,4 +1,5 @@
-3
-abbabb
-bbbabb
-abababbb
+4
+abbaba
+abababb
+bbabbaaab
+cabacbabb
