@@ -1,7 +1,6 @@
 '''
 //Théo César Zanotto da Silva
 
-
 ENUNCIADO
 
 Para  obter  os  pontos  relativos  a  este  trabalho,  você  deverá  criar  um  programa,  utilizando  a
@@ -30,9 +29,18 @@ irá  testar  seu  programa  com  os  arquivos  de  testes  que  você  criar  e
 testes criado pelo próprio professor.
 '''
 
+print('''Qual arquivo deverá ser analisado?
+[] teste1
+[] teste2
+[] teste3
+[] teste4
 
-arquivo = open('teste.txt', 'r')
-# para trocar o arquivo txt, só colocar o nome de outro na variável acima.
+    Para utilizar um arquivo diferente, personalize previamente o arquivo vazio teste4 !
+ ''')
+opcao = str(input('Nome do arquivo escolhido: '))
+
+
+arquivo = open(opcao + ".txt", 'r')
 linha = int(arquivo.readline())
 
 while linha > 0:
