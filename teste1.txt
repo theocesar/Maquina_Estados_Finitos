@@ -1,5 +1,8 @@
-4
-abbaba
-abababb
-bbabbaaab
-cabacbabb
+7
+bbbbbbbbb
+ababbbabb
+bbabbaabb
+abbabbbb
+abbbbaab
+abbabaaa
+aaaaaaaa
