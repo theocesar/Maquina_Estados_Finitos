@@ -1,8 +1,0 @@
-7
-bbbbbbbbb
-ababbbabb
-bbabbaabb
-abbabbbb
-abbbbaab
-abbabaaa
-aaaaaaaa
