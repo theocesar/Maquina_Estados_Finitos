@@ -23,8 +23,4 @@ conterão a string de entrada e o resultado da validação conforme o formato in
       abbaba: não pertence. 
       
       
-A  saída  poderá  ser  enviada  para  um  arquivo  de  textos,  ou  para  o  terminal  padrão  e  
-será composta de uma linha de saída por string de entrada. No caso do exemplo, teremos 3 linhas de saída. Para que 
-seu programa possa ser testado você deve criar, no mínimo, três arquivos de entrada contendo um número diferente de strings diferentes. Os arquivos 
-de entrada criados para os seus testes devem estar disponíveis tanto no ambiente repl.it quanto no ambiente Github. Observe que 
-o professor irá  testar  seu  programa  com  os  arquivos  de  testes  que  você  criar  e  com,  no  mínimo  um  arquivo  de testes criado pelo próprio professor.
+A  saída  poderá  ser  enviada  para  um  arquivo  de  textos,  ou  para  o  terminal  padrão  e  será composta de uma linha de saída por string de entrada. No caso do exemplo, teremos 3 linhas de saída. Para que seu programa possa ser testado você deve criar, no mínimo, três arquivos de entrada contendo um número diferente de strings diferentes. Os arquivos de entrada criados para os seus testes devem estar disponíveis tanto no ambiente repl.it quanto no ambiente Github. Observe que o professor irá  testar  seu  programa  com  os  arquivos  de  testes  que  você  criar  e  com,  no  mínimo  um  arquivo  de testes criado pelo próprio professor.
