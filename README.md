@@ -1,24 +1,27 @@
-# Maquina_Estados_Fisicos
+# Maquina_Estados_Finitos
 
-      
-Para  obter  os  pontos  relativos  a  este  trabalho,  você  deverá  criar  um  programa,  utilizando  a linguagem  Python, C, ou C++.  Este  programa,  quando  executado,  irá  determinar  se  uma  string de entrada  faz  parte  da  linguagem  𝐿  definida  por  𝐿 = {𝑥 | 𝑥 ∈  {𝑎,𝑏}∗ 𝑒 𝑐𝑎𝑑𝑎 𝑎 𝑒𝑚 𝑥 é 𝑠𝑒𝑔𝑢𝑖𝑑𝑜 𝑝𝑜𝑟 𝑝𝑒𝑙𝑜 𝑚𝑒𝑛𝑜𝑠 𝑑𝑜𝑖𝑠 𝑏} segundo o alfabeto  Σ={𝑎,𝑏,𝑐}. 
-
-
-O  programa  que  você  desenvolverá  irá  receber  como  entrada um arquivo de texto  (.txt) contendo várias strings. A primeira 
-linha do arquivo indica quantas strings estão no arquivo de texto de entrada. As linhas subsequentes contém uma string por linha.  A seguir 
-está um exemplo das linhas que podem existir em um arquivo de testes para o programa que você irá desenvolver: 
+Algorithm that implements a finite state machine to validate expressions.
 
 
-             3 
-             abbaba 
-             abababb 
-             bbabbaaab 
-             
-             
-Neste  exemplo  temos  3  strings  de  entrada.  O  número  de  strings em  cada  arquivo  será representado  por  um  número  inteiro  positivo.  A  resposta
-do  seu  programa  deverá  conter  uma, e somente uma linha de saída para cada string. Estas linhas 
-conterão a string de entrada e o resultado da validação conforme o formato indicado a seguir: 
-      abbaba: não pertence. 
-      
-      
-A  saída  poderá  ser  enviada  para  um  arquivo  de  textos,  ou  para  o  terminal  padrão  e  será composta de uma linha de saída por string de entrada. No caso do exemplo, teremos 3 linhas de saída. Para que seu programa possa ser testado você deve criar, no mínimo, três arquivos de entrada contendo um número diferente de strings diferentes. Os arquivos de entrada criados para os seus testes devem estar disponíveis tanto no ambiente repl.it quanto no ambiente Github. Observe que o professor irá  testar  seu  programa  com  os  arquivos  de  testes  que  você  criar  e  com,  no  mínimo  um  arquivo  de testes criado pelo próprio professor.
+## In-depth explanation:
+
+This program, when executed, will determine whether an
+input is part of the language 𝐿 defined by 𝐿 = {𝑥 | 𝑥 ∈
+{𝑎,𝑏}∗ 𝑒 each 𝑎 in 𝑥 is followed by at least two 𝑏} according to the alphabet Σ={{𝑎,𝑏,𝑐}.
+
+The program you will develop will receive as input a text file (.txt)
+containing several strings. The first line of the file indicates how many strings are in the input text file. The subsequent lines contain one string per line. The following is an example of the lines that may exist in a test file for the program you are going to develop:
+
+3 <br /> 
+abbaba <br /> 
+abababb <br /> 
+bbabbaaab 
+
+In this example we have 3 input strings. The number of strings in each file will be represented by a positive integer. Your program's response must contain one, and
+only one output line for each string. These lines will contain the input string and the result validation result in the following format:
+
+abbaba: does not belong.
+
+The output can be sent to a text file, or to the standard terminal, and will be of one output line per input string. In the case of the example, we will have 3 lines of output.
+For your program to be tested you must create at least three input files files containing a different number of different strings.
+
