@@ -2,7 +2,6 @@ from enum import Enum
 
 
 class State(Enum):
-    # states
     Zero = 0
     One = 1
     Two = 2
@@ -10,7 +9,6 @@ class State(Enum):
 
 
 def transitions():
-    # state transitions
     return {
         State.Zero: {'a': State.One, 'b': State.Three, 'c': State.Zero},
         State.One: {'a': State.One, 'b': State.Two, 'c': State.One},
@@ -62,7 +60,6 @@ def main():
         Para utilizar um arquivo diferente, personalize previamente o arquivo vazio teste4 !
     ''')
 
-    # Selecting the txt file chosen by the user
     opcao = str(input('Nome do arquivo escolhido: '))
     with open(opcao + ".txt", 'r') as arquivo:
         linha = int(arquivo.readline())
